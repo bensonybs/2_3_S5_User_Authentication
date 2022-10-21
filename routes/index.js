@@ -4,6 +4,6 @@ const login = require('./modules/login.js')
 const home = require('./modules/home.js')
 
 router.use('/', login)
-router.use('/home', home)
+// router.use('/home', home)
 
 module.exports = router
